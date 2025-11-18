@@ -1,4 +1,4 @@
-import { supabase } from '../lib/Supabase';
+import { supabase } from '../lib/supabase';
 import type { Company, CompanyFilters, SortField, SortOrder } from '../types/database';
 
 const ITEMS_PER_PAGE = 10;
